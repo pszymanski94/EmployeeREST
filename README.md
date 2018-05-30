@@ -2,9 +2,9 @@
 REST API that allows to manage employees and roles. Allows create, edit search and delete employees and roles.
 
 # Technology
-*JVM: Java 8, Spring (Core, Boot, Data JPA, Web), Hibernate.
-*Database: H2.
-*Tools: Maven, Lombok.
+* JVM: Java 8, Spring (Core, Boot, Data JPA, Web), Hibernate.
+* Database: H2.
+* Tools: Maven, Lombok.
 
 # Development
 ### Run project
