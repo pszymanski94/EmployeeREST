@@ -1,2 +1,22 @@
 # EmployeeREST
 EmployeeREST
+
+#Technology
+*JVM: Java 8, Spring (Core, Boot, Data JPA, Web), Hibernate.
+*Database: H2.
+*Tools: Maven, Lombok.
+
+#Development
+### Run project
+To run project you should run Maven command:
+`$ mvn spring-boot:run`
+
+### Run project
+
+|HTTP Method   | Simply request |Description |
+| ------------- | ------------- | ------------- |
+| GET  | http://localhost:8080/api/employee  | To retrieve all employees or roles |  
+| GET  | http://localhost:8080/api/employee?search=name&value=Ryszard  | To search employee(s) or role(s) based on atribute |
+| POST  | http://localhost:8080/api/employee  | To create new employee or role |
+| PUT  | http://localhost:8080/api/employee/3  | To edit employee or role |
+| DELETE  | http://localhost:8080/api/employee/3  | To delete employee or role |
