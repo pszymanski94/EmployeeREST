@@ -1,17 +1,18 @@
 # EmployeeREST
-EmployeeREST
+REST API that allows to manage employees and roles. Allows create, edit search and delete employees and roles.
 
-#Technology
+# Technology
 *JVM: Java 8, Spring (Core, Boot, Data JPA, Web), Hibernate.
 *Database: H2.
 *Tools: Maven, Lombok.
 
-#Development
+# Development
 ### Run project
 To run project you should run Maven command:
 `$ mvn spring-boot:run`
 
-### Run project
+### Run methods
+To run methods in API you can use many tools, for example Postman. You should select HTTP Metod and specify the operation url. Below is an example table with methods and queries for selected operations.
 
 |HTTP Method   | Simply request |Description |
 | ------------- | ------------- | ------------- |
